@@ -1053,7 +1053,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -2932,7 +2932,7 @@ select[multiple].form-group-lg .form-control {
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: 300;
   text-align: center;
   vertical-align: middle;
   touch-action: manipulation;
@@ -5746,7 +5746,7 @@ button.close {
   z-index: 1070;
   display: block;
   visibility: visible;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -5853,7 +5853,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -6477,5 +6477,13 @@ button.close {
     display: none !important;
   }
 }
+body,
+label,
+.checkbox label {
+  font-weight: 300;
+}
+.error-page {
+  background-color: #ecf0f5;
+}
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=adminlte-app.css.map */
