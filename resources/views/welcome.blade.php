@@ -8,13 +8,12 @@
         <title>Laravel</title>
 
         <!-- Theme style -->
-        <link rel="stylesheet" href="public/css/all.css">
-        <link rel="stylesheet" href="public/css/all.css">
+        <link rel="stylesheet" href=css/all.css">
 
     </head>
     <body class="hold-transition skin-blue sidebar-mini">
     <!-- Site wrapper -->
-    <div class="wrapper">
+    <div class="wrapper" id="app">
 
         <header class="main-header">
             <!-- Logo -->

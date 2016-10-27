@@ -15,16 +15,17 @@ require('laravel-elixir-vue-2');
 
 elixir(function(mix) {
     mix.sass('app.scss')
+        .less('app-less.less')
         .less('./node_modules/admin-lte/build/less/AdminLTE.less', './public/css/adminlte-less.css')
-        .less('app.less')
         .styles([
             './public/css/app.css',
-            './node_modules/admin-lte/dist/css/skins/_all-skins.css',
+            './public/css/app-less.css',
             './public/css/adminlte-less.css',
-            './public/css/adminlte-app.css',
+            './node_modules/admin-lte/dist/css/skins/_all-skins.css',
         ])
         .copy('node_modules/font-awesome/fonts/*.*','public/fonts/')
         .copy('node_modules/ionicons/dist/fonts/*.*','public/fonts/')
         .copy('node_modules/admin-lte/bootstrap/fonts/*.*','public/fonts/bootstrap')
+        //.copy('node_modules/admin-lte/dist/img','public/img')
         .webpack('app.js');
 });
